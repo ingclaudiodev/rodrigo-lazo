@@ -1,0 +1,44 @@
+# Exclusiones del contexto de build. Lo leen tanto BuildKit local como el builder legacy del
+# asistente de Cloud Run. No se excluye la carpeta docker/ entera: el Dockerfile necesita
+# docker/nginx.conf; se lista lo innecesario aparte.
+
+# Dependencias y salidas de build (se generan dentro de la imagen)
+**/node_modules
+dist
+dist-ssr
+*.tsbuildinfo
+.eslintcache
+
+# Tests e2e y sus informes (no se ejecutan en la imagen)
+e2e
+playwright.config.ts
+playwright-report
+test-results
+coverage
+__screenshots__
+
+# Control de versiones, editores y herramientas de asistentes
+.git
+.github
+.idea
+.vscode
+.editorconfig
+.gitattributes
+.gitignore
+.claude
+.agents
+.impeccable
+skills-lock.json
+graphify-out
+
+# Documentación del proyecto (no forma parte del sitio)
+README.md
+DESIGN.md
+PRODUCT.md
+docker/README.md
+
+# Secretos, logs y basura del sistema
+.env
+.env.*
+*.log
+.DS_Store

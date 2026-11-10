@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Favicon de Rodrigo Lazo: la misma huella del podograma de la portada sobre el color tinta de la marca. -->
+  <rect width="64" height="64" rx="14" fill="#0f2238"/>
+  <g fill="#ecf0f1" transform="translate(19.589 7.33) scale(0.076)">
+    <path d="M62 206C56 170 92 150 132 148C192 140 250 150 272 186C288 216 284 256 272 292C256 332 216 344 206 384C198 424 216 462 236 502C252 542 242 602 190 616C150 628 106 616 92 572C80 524 86 472 86 422C86 362 70 302 62 252C58 232 58 218 62 206Z"/>
+    <ellipse cx="226" cy="96" rx="44" ry="48"/><ellipse cx="160" cy="70" rx="24" ry="28"/><ellipse cx="116" cy="84" rx="21" ry="24"/><ellipse cx="82" cy="108" rx="19" ry="22"/><ellipse cx="56" cy="144" rx="17" ry="20"/>
+  </g>
+</svg>

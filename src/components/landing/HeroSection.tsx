@@ -6,6 +6,7 @@ import FootModel3D from './FootModel3D'
 import SymptomChips from './SymptomChips'
 import PainMarker from './PainMarker'
 import Icon from '@/components/icons/Icon'
+import AppLink from '@/components/AppLink'
 import { describeZones } from './podograma-geometry'
 
 export default defineComponent({
@@ -66,17 +67,17 @@ export default defineComponent({
             </p>
 
             <div class="flex flex-wrap items-center gap-4">
-              <a class="btn btn-neutral btn-lg rounded-full px-7" href={booking.href}>
+              <AppLink class="btn btn-neutral btn-lg rounded-full px-7" href={booking.href}>
                 <Icon name="calendar" size={20} />
                 {booking.label}
-              </a>
-              <a
+              </AppLink>
+              <AppLink
                 class="link link-hover inline-flex items-center gap-1.5 font-medium"
                 href={hero.secondaryCta.href}
               >
                 {hero.secondaryCta.label}
                 <Icon name="arrow-down" size={18} />
-              </a>
+              </AppLink>
             </div>
           </div>
 

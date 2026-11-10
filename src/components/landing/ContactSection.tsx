@@ -2,6 +2,7 @@ import { defineComponent } from 'vue'
 import { contentService } from '@/services'
 import ContactForm from './ContactForm'
 import Icon from '@/components/icons/Icon'
+import AppLink from '@/components/AppLink'
 
 export default defineComponent({
   name: 'ContactSection',
@@ -21,10 +22,10 @@ export default defineComponent({
             </p>
 
             {!booking.pending && (
-              <a class="btn btn-neutral btn-lg mt-8 rounded-full px-7" href={booking.href}>
+              <AppLink class="btn btn-neutral btn-lg mt-8 rounded-full px-7" href={booking.href}>
                 <Icon name="calendar" size={20} />
                 {booking.label}
-              </a>
+              </AppLink>
             )}
 
             <ul class="mt-10 flex flex-col gap-5">

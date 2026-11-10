@@ -1,5 +1,6 @@
 import { defineComponent } from 'vue'
 import { contentService } from '@/services'
+import AppLink from '@/components/AppLink'
 
 export default defineComponent({
   name: 'SiteFooter',
@@ -12,9 +13,9 @@ export default defineComponent({
         <p>{footer.copyright}</p>
         <nav class="flex gap-5" aria-label="Enlaces del pie">
           {links.map((link) => (
-            <a key={link.href} href={link.href} class="link link-hover">
+            <AppLink key={link.href} href={link.href} class="link link-hover">
               {link.label}
-            </a>
+            </AppLink>
           ))}
         </nav>
       </footer>

@@ -1,0 +1,11 @@
+# Levanta la landing en producción local:  docker compose up -d   →  http://localhost:8080
+# Reconstruir tras cambios:               docker compose up -d --build
+services:
+  web:
+    build: .
+    image: rodrigo-lazo
+    container_name: rodrigo-lazo
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    # El HEALTHCHECK viene definido en el Dockerfile (/healthz); `docker compose ps` muestra (healthy).

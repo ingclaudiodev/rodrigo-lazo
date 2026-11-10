@@ -61,14 +61,28 @@ export const brand = {
 export const booking = {
   label: 'Agendar una hora',
   /** TODO(rodrigo): enlace real de agenda. Hasta entonces apunta al formulario. */
-  href: '#agenda',
+  href: '/agenda',
   pending: true,
 } as const
 
+/**
+ * Secciones de la portada con URL propia (`/tratamientos`, `/agenda`…).
+ * Cada id coincide con el `id` del `<section>` al que se desplaza la página.
+ */
+export const sectionIds = [
+  'tratamientos',
+  'primera-sesion',
+  'sobre-mi',
+  'preguntas',
+  'agenda',
+] as const
+
+export type SectionId = (typeof sectionIds)[number]
+
 export const navLinks: NavLink[] = [
-  { label: 'Tratamientos', href: '#tratamientos' },
-  { label: 'Primera sesión', href: '#primera-sesion' },
-  { label: 'Preguntas', href: '#preguntas' },
+  { label: 'Tratamientos', href: '/tratamientos' },
+  { label: 'Primera sesión', href: '/primera-sesion' },
+  { label: 'Preguntas', href: '/preguntas' },
 ]
 
 export const hero = {
@@ -81,7 +95,7 @@ export const hero = {
     'Atención a domicilio en toda la Región Metropolitana. Otras regiones, con recargo adicional.',
   prompt: '¿Qué te molesta?',
   hint: 'Elige una molestia para ver en qué zona del pie se ubica y cómo se trata.',
-  secondaryCta: { label: 'Ver tratamientos', href: '#tratamientos' },
+  secondaryCta: { label: 'Ver tratamientos', href: '/tratamientos' },
   figureCaption: 'Modelo 3D del pie derecho con su mapa de presión plantar.',
   figureHint: 'Arrastra para girar el pie.',
   legend: { low: 'baja', high: 'alta', title: 'Presión plantar' },
@@ -323,4 +337,14 @@ export const painMap = {
 
 export const footer = {
   copyright: `© ${new Date().getFullYear()} ${brand.name}, ${brand.role.toLowerCase()}.`,
+} as const
+
+/** Página que se muestra cuando la URL no corresponde a ninguna ruta. */
+export const notFound = {
+  code: '404',
+  title: 'Esta página no existe',
+  description:
+    'La dirección que escribiste no corresponde a ninguna sección del sitio. Puedes volver al inicio o ir directo a los tratamientos.',
+  primaryCta: { label: 'Volver al inicio', to: '/' },
+  secondaryCta: { label: 'Ver tratamientos', to: '/tratamientos' },
 } as const

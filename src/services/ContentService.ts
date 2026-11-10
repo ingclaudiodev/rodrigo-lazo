@@ -13,6 +13,10 @@ export class ContentService {
     return landing.booking
   }
 
+  getNotFound() {
+    return landing.notFound
+  }
+
   getNavLinks(): landing.NavLink[] {
     return landing.navLinks
   }
@@ -61,11 +65,8 @@ export class ContentService {
     return landing.footer
   }
 
-  /** Ids de sección (sin `#`) derivados de los enlaces de navegación. */
-  getSectionIds(): string[] {
-    return landing.navLinks
-      .map((link) => link.href)
-      .filter((href) => href.startsWith('#'))
-      .map((href) => href.slice(1))
+  /** Ids de las secciones de la portada que tienen URL propia. */
+  getSectionIds(): landing.SectionId[] {
+    return [...landing.sectionIds]
   }
 }

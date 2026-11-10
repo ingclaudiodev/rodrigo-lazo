@@ -1,4 +1,6 @@
 import { defineComponent } from 'vue'
+import { useRoute } from 'vue-router'
+import AppLink from '@/components/AppLink'
 import { contentService } from '@/services'
 import { useMobileMenu } from '@/composables/useMobileMenu'
 import { useActiveSection } from '@/composables/useActiveSection'
@@ -11,12 +13,16 @@ export default defineComponent({
     const booking = contentService.getBooking()
     const links = contentService.getNavLinks()
     const menu = useMobileMenu()
-    const { isActive } = useActiveSection(() => contentService.getSectionIds())
+    const route = useRoute()
+    // Las secciones solo existen en la portada; en otras rutas no hay nada que observar.
+    const { isActive } = useActiveSection(() =>
+      route.name === 'home' ? contentService.getSectionIds() : [],
+    )
 
     const renderLink = (href: string, label: string, extra = '') => {
       const active = isActive(href.slice(1))
       return (
-        <a
+        <AppLink
           key={href}
           href={href}
           class={[
@@ -28,23 +34,23 @@ export default defineComponent({
           onClick={menu.close}
         >
           {label}
-        </a>
+        </AppLink>
       )
     }
 
     return () => (
       <header class="sticky top-0 z-20 border-b border-base-content/10 bg-base-100">
         <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5">
-          <a href="#inicio" class="flex flex-col leading-tight" onClick={menu.close}>
+          <AppLink href="/" class="flex flex-col leading-tight" onClick={menu.close}>
             <span class="font-display text-lg font-bold tracking-tight">{brand.name}</span>
             <span class="text-xs font-medium text-base-content/65">{brand.role}</span>
-          </a>
+          </AppLink>
 
           <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
             {links.map((link) => renderLink(link.href, link.label))}
-            <a class="btn btn-neutral btn-sm ml-3 rounded-full px-4" href={booking.href}>
+            <AppLink class="btn btn-neutral btn-sm ml-3 rounded-full px-4" href={booking.href}>
               {booking.label}
-            </a>
+            </AppLink>
           </nav>
 
           <button
@@ -66,9 +72,13 @@ export default defineComponent({
             aria-label="Principal móvil"
           >
             {links.map((link) => renderLink(link.href, link.label, 'py-3 text-base'))}
-            <a class="btn btn-neutral mt-2 rounded-full" href={booking.href} onClick={menu.close}>
+            <AppLink
+              class="btn btn-neutral mt-2 rounded-full"
+              href={booking.href}
+              onClick={menu.close}
+            >
               {booking.label}
-            </a>
+            </AppLink>
           </nav>
         )}
       </header>

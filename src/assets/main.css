@@ -465,3 +465,34 @@
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--color-base-content) 25%, transparent);
 }
+
+/* Fundido entre vistas (ver <Transition name="view"> en App.tsx). */
+.view-enter-active,
+.view-leave-active {
+  transition: opacity 180ms ease;
+}
+.view-enter-from,
+.view-leave-to {
+  opacity: 0;
+}
+
+/* Aparición suave de las secciones al entrar en pantalla (ver useSectionReveal). */
+/* Solo opacidad: un desplazamiento alteraría la posición que calcula el router al ir a una sección. */
+.reveal {
+  opacity: 0;
+  transition: opacity 450ms ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .view-enter-active,
+  .view-leave-active,
+  .reveal {
+    transition: none;
+  }
+  .reveal {
+    opacity: 1;
+  }
+}
