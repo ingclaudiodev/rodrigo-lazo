@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T00:00:00Z",
+  "title": "Design System: Rodrigo Lazo · Podograma",
+  "extensions": {
+    "colorMeta": {
+      "base-100": {
+        "role": "neutral",
+        "displayName": "Base clara",
+        "canonical": "#ecf0f1",
+        "tonalRamp": [
+          "oklch(15% 0.000 214)",
+          "oklch(26% 0.000 214)",
+          "oklch(38% 0.000 214)",
+          "oklch(49% 0.000 214)",
+          "oklch(61% 0.000 214)",
+          "oklch(72% 0.000 214)",
+          "oklch(84% 0.000 214)",
+          "oklch(95% 0.000 214)"
+        ]
+      },
+      "base-200": {
+        "role": "neutral",
+        "displayName": "Base media",
+        "canonical": "#e1e7ea",
+        "tonalRamp": [
+          "oklch(15% 0.008 229)",
+          "oklch(26% 0.008 229)",
+          "oklch(38% 0.008 229)",
+          "oklch(49% 0.008 229)",
+          "oklch(61% 0.008 229)",
+          "oklch(72% 0.008 229)",
+          "oklch(84% 0.008 229)",
+          "oklch(95% 0.008 229)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta navy",
+        "canonical": "#0f2238",
+        "tonalRamp": [
+          "oklch(15% 0.049 253)",
+          "oklch(26% 0.049 253)",
+          "oklch(38% 0.049 253)",
+          "oklch(49% 0.049 253)",
+          "oklch(61% 0.049 253)",
+          "oklch(72% 0.049 253)",
+          "oklch(84% 0.049 253)",
+          "oklch(95% 0.049 253)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Azul de marca",
+        "canonical": "#3498db",
+        "tonalRamp": [
+          "oklch(15% 0.135 243)",
+          "oklch(26% 0.135 243)",
+          "oklch(38% 0.135 243)",
+          "oklch(49% 0.135 243)",
+          "oklch(61% 0.135 243)",
+          "oklch(72% 0.135 243)",
+          "oklch(84% 0.135 243)",
+          "oklch(95% 0.135 243)"
+        ]
+      },
+      "primary-ink": {
+        "role": "primary",
+        "displayName": "Tinta azul",
+        "canonical": "color-mix(in srgb, var(--color-primary) 62%, var(--color-base-content))",
+        "tonalRamp": [
+          "oklch(15% 0.105 244)",
+          "oklch(26% 0.105 244)",
+          "oklch(38% 0.105 244)",
+          "oklch(49% 0.105 244)",
+          "oklch(61% 0.105 244)",
+          "oklch(72% 0.105 244)",
+          "oklch(84% 0.105 244)",
+          "oklch(95% 0.105 244)"
+        ]
+      },
+      "primary-tint": {
+        "role": "primary",
+        "displayName": "Tinte azul",
+        "canonical": "color-mix(in srgb, var(--color-primary) 18%, var(--color-base-100))",
+        "tonalRamp": [
+          "oklch(15% 0.029 235)",
+          "oklch(26% 0.029 235)",
+          "oklch(38% 0.029 235)",
+          "oklch(49% 0.029 235)",
+          "oklch(61% 0.029 235)",
+          "oklch(72% 0.029 235)",
+          "oklch(84% 0.029 235)",
+          "oklch(95% 0.029 235)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Verde agua",
+        "canonical": "#1abc9c",
+        "tonalRamp": [
+          "oklch(15% 0.131 174)",
+          "oklch(26% 0.131 174)",
+          "oklch(38% 0.131 174)",
+          "oklch(49% 0.131 174)",
+          "oklch(61% 0.131 174)",
+          "oklch(72% 0.131 174)",
+          "oklch(84% 0.131 174)",
+          "oklch(95% 0.131 174)"
+        ]
+      },
+      "error": {
+        "role": "tertiary",
+        "displayName": "Error",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "oklch(15% 0.178 29)",
+          "oklch(26% 0.178 29)",
+          "oklch(38% 0.178 29)",
+          "oklch(49% 0.178 29)",
+          "oklch(61% 0.178 29)",
+          "oklch(72% 0.178 29)",
+          "oklch(84% 0.178 29)",
+          "oklch(95% 0.178 29)"
+        ]
+      },
+      "pain-1": {
+        "role": "tertiary",
+        "displayName": "Dolor 1 · blanco",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "pain-5": {
+        "role": "tertiary",
+        "displayName": "Dolor 5 · amarillo suave",
+        "canonical": "#f7d774",
+        "tonalRamp": [
+          "oklch(15% 0.124 92)",
+          "oklch(26% 0.124 92)",
+          "oklch(38% 0.124 92)",
+          "oklch(49% 0.124 92)",
+          "oklch(61% 0.124 92)",
+          "oklch(72% 0.124 92)",
+          "oklch(84% 0.124 92)",
+          "oklch(95% 0.124 92)"
+        ]
+      },
+      "pain-10": {
+        "role": "tertiary",
+        "displayName": "Dolor 10 · rojo suave",
+        "canonical": "#e0564b",
+        "tonalRamp": [
+          "oklch(15% 0.175 28)",
+          "oklch(26% 0.175 28)",
+          "oklch(38% 0.175 28)",
+          "oklch(49% 0.175 28)",
+          "oklch(61% 0.175 28)",
+          "oklch(72% 0.175 28)",
+          "oklch(84% 0.175 28)",
+          "oklch(95% 0.175 28)"
+        ]
+      },
+      "foot-skin": {
+        "role": "neutral",
+        "displayName": "Piel del pie 3D",
+        "canonical": "#e9eff3",
+        "tonalRamp": [
+          "oklch(15% 0.008 237)",
+          "oklch(26% 0.008 237)",
+          "oklch(38% 0.008 237)",
+          "oklch(49% 0.008 237)",
+          "oklch(61% 0.008 237)",
+          "oklch(72% 0.008 237)",
+          "oklch(84% 0.008 237)",
+          "oklch(95% 0.008 237)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Sólo el titular del hero, en dos líneas con corte controlado."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de cada sección; sticky en la columna izquierda en Tratamientos y FAQ."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Títulos de tratamientos, pasos, panel de dolor, preguntas y marca del nav."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido en Onest; 58–62ch de ancho máximo."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Etiquetas de campo, nav, notas; sin mayúsculas ni tracking."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Botones y chips: escala btn-lg 1.125rem / btn-sm 0.75rem de daisyUI, peso 600."
+      },
+      "legend": {
+        "displayName": "Legend",
+        "purpose": "Título de la leyenda dentro del podograma SVG (11px)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-soft",
+        "value": "0 10px 28px -14px color-mix(in srgb, #0f2238 30%, transparent)",
+        "purpose": "Única sombra de contenedores; sólo cuando flotan sobre un campo de color."
+      },
+      {
+        "name": "shadow-thumb",
+        "value": "0 2px 6px rgb(15 34 56 / 0.25)",
+        "purpose": "Pulgar del slider de intensidad."
+      }
+    ],
+    "motion": [
+      {
+        "name": "foot-orient",
+        "value": "900ms outExpo (anime.js), slerp de cuaterniones",
+        "purpose": "Única interpolación de orientación del pie 3D al elegir un chip o una parte."
+      },
+      {
+        "name": "foot-color",
+        "value": "350ms outQuad (anime.js)",
+        "purpose": "Transición de color de dedos y partes del pie 3D."
+      },
+      {
+        "name": "foot-idle",
+        "value": "0.0022 rad/frame, tras 4000ms sin interacción, sólo en vista de reposo",
+        "purpose": "Giro lento del pie en reposo; se detiene con puntero encima."
+      },
+      {
+        "name": "zone-toggle",
+        "value": "0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Opacidad 0.22 ↔ 1 y saturate(1.3) de las zonas del podograma SVG."
+      },
+      {
+        "name": "ring-in",
+        "value": "0.45s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Entrada del anillo discontinuo de la zona activa (escala 0.85 → 1)."
+      },
+      {
+        "name": "podograma-entrance",
+        "value": "700ms outExpo, stagger 110ms",
+        "purpose": "Entrada única del podograma SVG de talón a dedos."
+      },
+      {
+        "name": "ui-color",
+        "value": "0.15–0.2s ease",
+        "purpose": "Bordes de chips y color de enlaces del nav."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "todo estático",
+        "purpose": "Con prefers-reduced-motion: reduce no hay giro, slerp, transiciones ni entrada; cada cambio se pinta en un frame."
+      }
+    ],
+    "focus": [
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #1abc9c; outline-offset: 3px; border-radius: 0.25rem",
+        "purpose": "Foco visible global; en el slider offset 4px y radio píldora."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "bg-hero-fade",
+        "value": "linear-gradient(to bottom, #3498db 0%, color-mix(in srgb, #3498db 70%, #e1e7ea) 28%, color-mix(in srgb, #3498db 30%, #e1e7ea) 62%, #e1e7ea 100%)",
+        "purpose": "Campo del hero: azul de marca que se funde en base-200."
+      },
+      {
+        "name": "bg-primary-fade",
+        "value": "linear-gradient(to bottom, #ecf0f1 0%, color-mix(in srgb, #3498db 55%, #ecf0f1) 22%, #3498db 60%, #3498db 100%)",
+        "purpose": "Banda de agenda: de la base al azul sólido, que continúa en el pie de página."
+      },
+      {
+        "name": "pressure-scale",
+        "value": "linear-gradient(to right, #3498db, #1abc9c)",
+        "purpose": "Escala de presión plantar; único degradado de marca."
+      },
+      {
+        "name": "pain-scale",
+        "value": "linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(247, 215, 116) 44.44%, rgb(224, 86, 75) 100%)",
+        "purpose": "Escala de dolor del visitante 1 → 5 → 10."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón primario (navy, píldora)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "CTA principal: tinta navy sobre cualquier campo, píldora, ícono de trazo 1.75 a la izquierda.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#agenda\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 2v4\"/><path d=\"M16 2v4\"/><path d=\"M3 10h18\"/><path d=\"M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z\"/></svg>Agendar una hora</a>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; gap:0.5rem; height:3rem; padding:0 1.75rem; border-radius:999px; background:var(--color-base-content, #0f2238); color:var(--color-base-100, #ecf0f1); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; font-size:1.125rem; font-weight:600; text-decoration:none; border:none; cursor:pointer; transition: background-color 0.2s ease; } .ds-btn-primary:hover { background: color-mix(in srgb, var(--color-base-content, #0f2238) 88%, black); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:999px; }"
+    },
+    {
+      "name": "Botón fantasma",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Acción secundaria dentro de paneles (Quitar) y botón del menú móvil.",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\">Quitar</button>",
+      "css": ".ds-btn-ghost { display:inline-flex; align-items:center; height:2rem; padding:0 1rem; border-radius:999px; background:transparent; color:var(--color-base-content, #0f2238); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; font-size:0.75rem; font-weight:600; border:none; cursor:pointer; transition: background-color 0.2s ease; } .ds-btn-ghost:hover { background: color-mix(in srgb, var(--color-base-content, #0f2238) 8%, transparent); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:999px; }"
+    },
+    {
+      "name": "Chip de síntoma",
+      "kind": "chip",
+      "refersTo": "chip-symptom",
+      "description": "Filtro '¿Qué te molesta?' sobre el hero; seleccionado pasa a navy sólido y hace girar el pie 3D.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Uña encarnada</button><button class=\"ds-chip ds-chip--on\" type=\"button\" aria-pressed=\"true\">Callos y durezas</button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Pie diabético</button></div>",
+      "css": ".ds-chips { display:flex; flex-wrap:wrap; gap:0.5rem; padding:1rem; background:var(--color-primary, #3498db); border-radius:1rem; } .ds-chip { height:2rem; padding:0 1rem; border-radius:999px; border:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 30%, transparent); background: color-mix(in srgb, var(--color-base-100, #ecf0f1) 35%, transparent); color:var(--color-base-content, #0f2238); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; font-size:0.75rem; font-weight:600; cursor:pointer; transition: border-color 0.2s ease, background-color 0.2s ease; } .ds-chip:hover { border-color:var(--color-base-content, #0f2238); background: color-mix(in srgb, var(--color-base-100, #ecf0f1) 70%, transparent); } .ds-chip--on, .ds-chip--on:hover { background:var(--color-base-content, #0f2238); border-color:var(--color-base-content, #0f2238); color:var(--color-base-100, #ecf0f1); } .ds-chip:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:999px; }"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Input grande del formulario de agenda: radio 1rem, caret verde agua, anillo de foco verde agua.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field__label\">Nombre</span><input class=\"ds-input\" type=\"text\" placeholder=\"\" /></label>",
+      "css": ".ds-field { display:flex; flex-direction:column; gap:0.375rem; font-family:'Onest', ui-sans-serif, system-ui, sans-serif; } .ds-field__label { font-size:0.875rem; font-weight:500; color: color-mix(in srgb, var(--color-base-content, #0f2238) 70%, transparent); } .ds-input { height:3rem; padding:0 0.75rem; border-radius:1rem; border:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 20%, transparent); background:var(--color-base-100, #ecf0f1); color:var(--color-base-content, #0f2238); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; font-size:1.125rem; caret-color:var(--color-accent, #1abc9c); transition: border-color 0.2s ease; } .ds-input:hover { border-color: color-mix(in srgb, var(--color-base-content, #0f2238) 40%, transparent); } .ds-input:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:1rem; }"
+    },
+    {
+      "name": "Select con chevron propio",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Selector de parte del pie: mismo campo de 1rem, chevron SVG de trazo 1.75 en navy en lugar del caret nativo.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field__label\">Parte del pie</span><select class=\"ds-select\"><option>Elige una parte…</option><option>Talón</option><option>Metatarso</option><option>Dedos</option></select></label>",
+      "css": ".ds-field { display:flex; flex-direction:column; gap:0.375rem; font-family:'Onest', ui-sans-serif, system-ui, sans-serif; } .ds-field__label { font-size:0.875rem; font-weight:500; color: color-mix(in srgb, var(--color-base-content, #0f2238) 70%, transparent); } .ds-select { appearance:none; height:2.5rem; padding:0 1.75rem 0 0.75rem; border-radius:1rem; border:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 20%, transparent); background-color:var(--color-base-100, #ecf0f1); background-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230f2238' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>\"); background-size:1.1rem 1.1rem; background-position: calc(100% - 0.9rem) center; background-repeat:no-repeat; color:var(--color-base-content, #0f2238); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; font-size:0.875rem; cursor:pointer; } .ds-select:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:1rem; }"
+    },
+    {
+      "name": "Navegación",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Cabecera sticky de 4rem: marca en dos líneas, enlaces píldora atenuados al 65 % y CTA navy.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav__brand\" href=\"#\"><span class=\"ds-nav__name\">Rodrigo Lazo</span><span class=\"ds-nav__role\">Podólogo clínico</span></a><nav class=\"ds-nav__links\"><a class=\"ds-nav__link ds-nav__link--active\" href=\"#\" aria-current=\"true\">Tratamientos</a><a class=\"ds-nav__link\" href=\"#\">Primera sesión</a><a class=\"ds-nav__link\" href=\"#\">Preguntas</a><a class=\"ds-nav__cta\" href=\"#\">Agendar una hora</a></nav></header>",
+      "css": ".ds-nav { display:flex; align-items:center; justify-content:space-between; gap:1rem; height:4rem; padding:0 1.25rem; background: color-mix(in srgb, var(--color-base-100, #ecf0f1) 90%, transparent); border-bottom:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 10%, transparent); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; color:var(--color-base-content, #0f2238); } .ds-nav__brand { display:flex; flex-direction:column; line-height:1.25; text-decoration:none; color:inherit; } .ds-nav__name { font-family:'Bricolage Grotesque', 'Onest', ui-sans-serif, system-ui, sans-serif; font-size:1.125rem; font-weight:700; letter-spacing:-0.025em; font-variation-settings:'opsz' 96; } .ds-nav__role { font-size:0.75rem; font-weight:500; color: color-mix(in srgb, var(--color-base-content, #0f2238) 65%, transparent); } .ds-nav__links { display:flex; align-items:center; gap:0.25rem; } .ds-nav__link { padding:0.5rem 0.75rem; border-radius:999px; font-size:0.875rem; font-weight:500; text-decoration:none; color: color-mix(in srgb, var(--color-base-content, #0f2238) 65%, transparent); transition: color 0.2s ease; } .ds-nav__link:hover, .ds-nav__link--active { color:var(--color-base-content, #0f2238); } .ds-nav__link:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:999px; } .ds-nav__cta { margin-left:0.75rem; height:2rem; display:inline-flex; align-items:center; padding:0 1rem; border-radius:999px; background:var(--color-base-content, #0f2238); color:var(--color-base-100, #ecf0f1); font-size:0.75rem; font-weight:600; text-decoration:none; } .ds-nav__cta:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:999px; }"
+    },
+    {
+      "name": "Tarjeta / acordeón",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Contenedor base-100 de 1.5rem con la única sombra del sistema; se usa sobre campos de color (FAQ sobre base-200, formulario sobre azul).",
+      "html": "<details class=\"ds-card\"><summary class=\"ds-card__title\">¿Duele el procedimiento?</summary><p class=\"ds-card__body\">Trabajo con instrumental esterilizado y te explico cada paso antes de hacerlo.</p></details>",
+      "css": ".ds-card { border-radius:1.5rem; background:var(--color-base-100, #ecf0f1); color:var(--color-base-content, #0f2238); box-shadow: 0 10px 28px -14px color-mix(in srgb, var(--color-base-content, #0f2238) 30%, transparent); padding:1rem 1.5rem; font-family:'Onest', ui-sans-serif, system-ui, sans-serif; } .ds-card__title { list-style:none; cursor:pointer; font-family:'Bricolage Grotesque', 'Onest', ui-sans-serif, system-ui, sans-serif; font-size:1.125rem; font-weight:600; letter-spacing:-0.025em; font-variation-settings:'opsz' 96; padding:0.5rem 0; } .ds-card__title::-webkit-details-marker { display:none; } .ds-card__title:focus-visible { outline: 2px solid var(--color-accent, #1abc9c); outline-offset: 3px; border-radius:0.25rem; } .ds-card__body { margin:0.25rem 0 0.5rem; line-height:1.625; color: color-mix(in srgb, var(--color-base-content, #0f2238) 80%, transparent); }"
+    },
+    {
+      "name": "Slider de intensidad (escala de dolor)",
+      "kind": "custom",
+      "refersTo": "panel-pain",
+      "description": "Pista píldora con el degradado 1 blanco → 5 amarillo → 10 rojo; pulgar pintado con el valor actual y borde navy.",
+      "html": "<div class=\"ds-pain\"><div class=\"ds-pain__head\"><span>Intensidad</span><output class=\"ds-pain__value\" style=\"background:#f7d774\">5/10</output></div><input class=\"ds-pain__range\" type=\"range\" min=\"1\" max=\"10\" value=\"5\" style=\"--pain-thumb:#f7d774\" /><div class=\"ds-pain__ends\"><span>1 · leve</span><span>10 · máximo</span></div></div>",
+      "css": ".ds-pain { display:flex; flex-direction:column; gap:0.5rem; padding:1.25rem; border-radius:1.5rem; background: color-mix(in srgb, var(--color-base-100, #ecf0f1) 82%, white); box-shadow: 0 10px 28px -14px color-mix(in srgb, var(--color-base-content, #0f2238) 30%, transparent); font-family:'Onest', ui-sans-serif, system-ui, sans-serif; color:var(--color-base-content, #0f2238); } .ds-pain__head { display:flex; justify-content:space-between; align-items:center; font-size:0.875rem; font-weight:500; color: color-mix(in srgb, var(--color-base-content, #0f2238) 70%, transparent); } .ds-pain__value { display:inline-flex; min-width:3.25rem; justify-content:center; padding:0.1rem 0.6rem; border-radius:999px; border:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 20%, transparent); font-variant-numeric:tabular-nums; font-weight:600; color:var(--color-base-content, #0f2238); } .ds-pain__range { --pain-scale: linear-gradient(to right, #ffffff 0%, #f7d774 44.444%, #e0564b 100%); --pain-thumb:#ffffff; width:100%; height:1.5rem; appearance:none; background:transparent; cursor:pointer; } .ds-pain__range::-webkit-slider-runnable-track { height:0.6rem; border-radius:999px; background:var(--pain-scale); border:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 20%, transparent); } .ds-pain__range::-moz-range-track { height:0.6rem; border-radius:999px; background:var(--pain-scale); border:1px solid color-mix(in srgb, var(--color-base-content, #0f2238) 20%, transparent); } .ds-pain__range::-webkit-slider-thumb { appearance:none; width:1.35rem; height:1.35rem; margin-top:-0.42rem; border-radius:50%; background:var(--pain-thumb); border:2px solid var(--color-base-content, #0f2238); box-shadow: 0 2px 6px rgb(15 34 56 / 0.25); } .ds-pain__range::-moz-range-thumb { width:1.35rem; height:1.35rem; border-radius:50%; background:var(--pain-thumb); border:2px solid var(--color-base-content, #0f2238); box-shadow: 0 2px 6px rgb(15 34 56 / 0.25); } .ds-pain__range:focus-visible { outline:2px solid var(--color-accent, #1abc9c); outline-offset:4px; border-radius:999px; } .ds-pain__ends { display:flex; justify-content:space-between; font-size:0.75rem; color: color-mix(in srgb, var(--color-base-content, #0f2238) 65%, transparent); }"
+    },
+    {
+      "name": "Leyenda de presión plantar",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "El único degradado de marca: barra píldora azul → verde agua bajo el pie 3D, con título 0.75rem/600 +0.04em.",
+      "html": "<div class=\"ds-legend\"><span class=\"ds-legend__title\">Presión plantar</span><span class=\"ds-legend__bar\"></span><span class=\"ds-legend__labels\"><span>baja</span><span>alta</span></span></div>",
+      "css": ".ds-legend { display:grid; gap:0.3rem; min-width:9rem; max-width:12rem; font-family:'Onest', ui-sans-serif, system-ui, sans-serif; font-size:0.75rem; color: color-mix(in srgb, var(--color-base-content, #0f2238) 70%, transparent); } .ds-legend__title { font-weight:600; letter-spacing:0.04em; color:var(--color-base-content, #0f2238); } .ds-legend__bar { display:block; height:0.5rem; border-radius:999px; background: linear-gradient(to right, var(--color-primary, #3498db), var(--color-accent, #1abc9c)); } .ds-legend__labels { display:flex; justify-content:space-between; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El podograma vivo",
+    "overview": "La página es un podograma: el pie del paciente, con su mapa de presión plantar, que responde cuando el visitante señala qué le molesta y le deja marcar dónde y cuánto le duele. Todo lo demás es consulta clínica clara: una base gris-azulada muy clara (#ecf0f1), tinta navy (#0f2238) para texto y controles, y el azul de marca (#3498db) usado como *campo* de color (hero, banda tintada de primera sesión, banda de agenda y pie de página), nunca como tinta de texto grande ni como botón. El verde agua (#1abc9c) sólo aparece como extremo alto de la escala de presión, como anillo de foco y como marca de verificación en las listas. La densidad es media-baja: secciones de 5–7 rem de respiro, una sola columna de lectura de 58–62 caracteres, controles con forma de píldora y paneles de esquinas amplias.\n\nEl mundo rechaza explícitamente el vidrio: no hay glassmorphism ni liquid glass, no hay héroe centrado sobre fila de tarjetas con ícono, ni kicker, ni texto degradado, ni bloque de métricas. La profundidad se logra con capas tonales (base-100 / base-200 / tinte azul) y una sola sombra suave desplazada. El único movimiento es el del pie: giro lento en reposo, orientación por slerp al elegir una zona y transición de color de la zona encendida; con `prefers-reduced-motion` todo queda estático.\n\nNota de procedencia (registrada por el reviewer de cierre): la dirección **Podograma** fue elegida por el usuario entre tres cartas presentadas por el agente; la tirada de *concept-seed* NO estaba disponible en el launcher de Impeccable instalado (sólo ofrece `detect`), y la elección del usuario entre tres cartas es el sustituto registrado.\n\nRestricciones fijadas por el usuario, vinculantes para cualquier trabajo futuro: paleta #3498db (principal) / #ecf0f1 (secundario, fondo general) / #1abc9c (efectos); glassmorphism y liquid glass explícitamente rechazados; hero en degradado #3498db → #ecf0f1; secciones importantes (primera sesión, agenda) en #3498db; escala de dolor 1 blanco → 5 amarillo → 10 rojo en tonos suaves; pie 3D (planta y dorso) con three.js; marcas de dolor/molestia persistidas por dispositivo. Donde el build aterrizó distinto del enunciado literal, este documento registra lo construido y lo anota: el degradado del hero termina en base-100 (#ecf0f1) y se funde sin borde con la sección siguiente; la banda de primera sesión es un tinte al 18 % de azul sobre la base y no azul sólido; y la de agenda arranca clara y llega al azul sólido a los 60 % de su altura, que continúa en el pie de página.",
+    "keyCharacteristics": [
+      "Base clínica clara (#ecf0f1) con tinta navy (#0f2238); el azul de marca es fondo, no tinta.",
+      "Un solo degradado de marca: azul → verde agua, y sólo como escala de presión plantar.",
+      "Escala de dolor del visitante aparte: blanco → amarillo suave → rojo suave, 1 a 10.",
+      "Bricolage Grotesque (opsz 96, −0.03em) para titulares; Onest para todo el texto.",
+      "Íconos SVG propios de trazo 1.75, viewBox 24, terminaciones redondeadas.",
+      "Controles píldora (999px), campos a 1rem, paneles a 1.5rem; una sombra suave desplazada.",
+      "Movimiento sólo en el pie 3D: slerp 900 ms `outExpo`, color 350 ms, giro lento en reposo; estático con reduced-motion."
+    ],
+    "rules": [
+      {
+        "name": "The One Gradient Rule",
+        "body": "El degradado azul → verde agua existe sólo como escala de presión plantar (textura, leyenda, podograma SVG). Ningún texto, botón ni fondo lo usa como decoración.",
+        "section": "colors"
+      },
+      {
+        "name": "The Field, Not Ink Rule",
+        "body": "El azul de marca es un campo de fondo (hero, tinte, agenda, pie); el texto y los botones sobre él son navy. Para texto azul pequeño se usa `primary-ink`, nunca `primary`.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Scales Rule",
+        "body": "Presión (azul → verde agua) y dolor (blanco → amarillo → rojo) no se mezclan: la presión describe el pie, el dolor lo marca el visitante, y siempre se pintan en capas distintas.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Kicker Rule",
+        "body": "Ninguna sección lleva kicker, eyebrow ni etiqueta en mayúsculas sobre el título. El titular abre solo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Breakpoint Ramp Rule",
+        "body": "La escala tipográfica salta por breakpoint (sm/md/lg), no por `clamp()`.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Shadow Rule",
+        "body": "Una sola sombra para contenedores; nada de sombras duras, offset de color ni glows. Si un elemento no flota sobre un campo de color, no lleva sombra.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No Glass Rule",
+        "body": "Ningún panel, tarjeta ni héroe se construye como vidrio (superficie translúcida con desenfoque usada como material). Las superficies de contenido son opacas o tintes sólidos; las dos únicas translucidez del build son funcionales y no se extienden: la cabecera sticky (base-100 al 90 % con desenfoque leve para que el contenido no choque bajo ella) y los chips de síntoma sin seleccionar (base-100 al 35 % sobre el degradado del hero).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do usar #ecf0f1 como fondo general y #0f2238 como tinta; el azul #3498db va en campos (hero degradado, tinte al 18 %, agenda y pie sólidos) y el texto sobre él sigue siendo navy.",
+      "Do reservar el degradado #3498db → #1abc9c a la escala de presión plantar (textura, leyenda, podograma SVG) y usar #1abc9c además sólo para foco, caret, selección y marcas de verificación.",
+      "Do pintar el dolor del visitante con la escala 1 #ffffff → 5 #f7d774 → 10 #e0564b (interpolación lineal) en capa separada del mapa de presión, y persistir las marcas por dispositivo.",
+      "Do componer titulares en Bricolage Grotesque 700 con `'opsz' 96` y −0.03em, y todo el texto en Onest; ambas autoalojadas desde `public/fonts/`.",
+      "Do dibujar íconos como SVG propios de trazo 1.75 con terminaciones redondeadas, en `currentColor`, tamaños 16/18/20/22px.",
+      "Do mantener tres radios: píldora en controles pulsables, 1rem en campos, 1.5rem en paneles; y una sola sombra `0 10px 28px -14px` de tinta al 30 % sólo sobre campos de color.",
+      "Do mover únicamente el pie: slerp 900 ms `outExpo`, color 350 ms, giro lento en reposo; todo estático bajo `prefers-reduced-motion`.",
+      "Do mostrar cualquier dato \"por confirmar\" (formación, registro, horarios, recargo, correo, teléfono, enlace de agenda) en cursiva al 55–60 % de tinta o dentro de la caja de borde discontinuo \"Textos a confirmar\", nunca con el peso visual de un hecho (ver `pendingReview` en `src/content/landing.ts` y PRODUCT.md)."
+    ],
+    "donts": [
+      "Don't construir paneles, tarjetas o héroes de vidrio (glassmorphism, liquid glass): el usuario los rechazó explícitamente.",
+      "Don't usar kickers, eyebrows, texto en mayúsculas con tracking, texto con degradado, filas de tarjetas con ícono bajo un titular centrado ni bloques de métricas.",
+      "Don't usar #3498db como color de texto pequeño ni como botón; para texto azul legible usar `primary-ink` (#266b9d) y para botones la tinta navy.",
+      "Don't decorar con el degradado azul → verde agua ni introducir otras familias cálidas fuera de la escala de dolor.",
+      "Don't añadir sombras duras, glows, relieve de daisyUI (`--depth`), ruido, ni bucles de animación distintos del giro lento del pie.",
+      "Don't presentar como hechos la formación, el registro profesional, los horarios, las coberturas de salud ni el monto del recargo mientras sigan \"por confirmar\"."
+    ]
+  }
+}
