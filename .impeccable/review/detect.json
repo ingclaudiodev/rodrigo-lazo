@@ -1,0 +1,472 @@
+[
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.1:1 (need 4.5:1) — text #ecf0f1 on #e1e7ea"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.1:1 (need 4.5:1) — text #ecf0f1 on #e1e7ea"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.2:1 (need 4.5:1) — text #ecf0f1 on #d6dbde"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "3.7:1 (need 4.5:1) — text #266b9d on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "3.7:1 (need 4.5:1) — text #266b9d on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "3.7:1 (need 4.5:1) — text #266b9d on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "3.7:1 (need 4.5:1) — text #266b9d on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "3.7:1 (need 4.5:1) — text #266b9d on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "3.7:1 (need 4.5:1) — text #266b9d on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 3:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) — text #0f2238 on #000000"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "transition: min-height, padding"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "transition: min-height, padding"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "transition: min-height, padding"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "transition: min-height, padding"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "transition: min-height, padding"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<section> \"bg-primary-tint\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<li> \"relative\": children flush against border-top on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<li> \"relative\": children flush against border-top on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<li> \"relative\": children flush against border-top on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<details> \"group\": children flush against border on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<section> \"bg-base-200\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": "<div> \"bg-primary\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": ".input — inset box-shadow 10px stripe (top)"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": ".select — inset box-shadow 10px stripe (top)"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/Users/claudio-mac/code/rodrigo-lazo/.impeccable/review/rendered.html",
+    "line": 0,
+    "snippet": ".textarea — inset box-shadow 10px stripe (top)"
+  }
+]
