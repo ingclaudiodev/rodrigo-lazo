@@ -41,7 +41,9 @@ export default defineComponent({
               <span>{hero.coverage}</span>
             </p>
 
+            {/* Por debajo de lg, chips y texto de ayuda pasan detrás del CTA (`order-1`): agendar queda en la primera pantalla del móvil. */}
             <SymptomChips
+              class="order-1 lg:order-none"
               symptoms={symptoms}
               prompt={hero.prompt}
               isSelected={selection.isSelected}
@@ -49,7 +51,7 @@ export default defineComponent({
               onHover={selection.hover}
             />
 
-            <p class="min-h-[3.5rem] max-w-[58ch] text-base leading-relaxed text-base-content/90">
+            <p class="order-1 min-h-[3.5rem] max-w-[58ch] text-base leading-relaxed text-base-content/90 lg:order-none">
               {selection.active.value ? (
                 <>
                   <span class="font-semibold text-base-content">

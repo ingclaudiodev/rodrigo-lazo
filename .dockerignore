@@ -36,6 +36,7 @@ README.md
 DESIGN.md
 PRODUCT.md
 docker/README.md
+docs
 
 # Secretos, logs y basura del sistema
 .env

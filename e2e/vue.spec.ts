@@ -32,6 +32,16 @@ test('contact form is disabled while the recipient is pending', async ({ page })
   await expect(page.locator('#contact-pending')).toContainText('por confirmar')
 })
 
+test('desktop nav shows the section links and the booking button without a menu', async ({
+  page,
+}) => {
+  await page.goto('/')
+  const nav = page.locator('header nav[aria-label="Principal"]')
+  await expect(nav.getByRole('link', { name: 'Tratamientos' })).toBeVisible()
+  await expect(nav.locator('a[href="/agenda"]')).toBeInViewport()
+  await expect(page.getByRole('button', { name: /abrir menú/i })).toBeHidden()
+})
+
 test('nav highlights the section in view', async ({ page }) => {
   await page.goto('/')
   await page.locator('#primera-sesion').scrollIntoViewIfNeeded()

@@ -24,6 +24,7 @@ describe('App', () => {
     expect(wrapper.find('#tratamientos').exists()).toBe(true)
     expect(wrapper.find('#sobre-mi').exists()).toBe(true)
     expect(wrapper.find('#agenda').exists()).toBe(true)
+    wrapper.unmount()
   })
 
   it('renders the landing page on a section route like /tratamientos', async () => {
@@ -32,6 +33,7 @@ describe('App', () => {
     expect(wrapper.text()).toContain(hero.titleLines[0])
     expect(wrapper.find('#tratamientos').exists()).toBe(true)
     expect(wrapper.text()).not.toContain(notFound.title)
+    wrapper.unmount()
   })
 
   it('renders the 404 view with nav and footer on an unknown route', async () => {
@@ -41,5 +43,20 @@ describe('App', () => {
     expect(wrapper.text()).toContain(notFound.title)
     expect(wrapper.find('#tratamientos').exists()).toBe(false)
     expect(wrapper.find(`a[href="${notFound.primaryCta.to}"]`).exists()).toBe(true)
+    wrapper.unmount()
+  })
+
+  it('marks the 404 view as noindex and restores the head when leaving', async () => {
+    document.title = 'Título original'
+    const wrapper = await mountAt('/login')
+
+    expect(document.title).toContain(notFound.title)
+    expect(document.head.querySelector('meta[name="robots"]')?.getAttribute('content')).toBe(
+      'noindex',
+    )
+
+    wrapper.unmount()
+    expect(document.title).toBe('Título original')
+    expect(document.head.querySelector('meta[name="robots"]')).toBeNull()
   })
 })

@@ -47,36 +47,41 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
+      testIgnore: /responsive\.mobile\.spec\.ts/,
       use: {
         ...devices['Desktop Chrome'],
       },
     },
     {
       name: 'firefox',
+      testIgnore: /responsive\.mobile\.spec\.ts/,
       use: {
         ...devices['Desktop Firefox'],
       },
     },
     {
       name: 'webkit',
+      testIgnore: /responsive\.mobile\.spec\.ts/,
       use: {
         ...devices['Desktop Safari'],
       },
     },
 
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: {
-    //     ...devices['Pixel 5'],
-    //   },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: {
-    //     ...devices['iPhone 12'],
-    //   },
-    // },
+    /* Viewports móviles: solo las pruebas de responsividad (la suite completa depende de WebGL de escritorio). */
+    {
+      name: 'Mobile Chrome',
+      testMatch: /responsive(\.mobile)?\.spec\.ts/,
+      use: {
+        ...devices['Pixel 7'],
+      },
+    },
+    {
+      name: 'Mobile Safari',
+      testMatch: /responsive(\.mobile)?\.spec\.ts/,
+      use: {
+        ...devices['iPhone 14'],
+      },
+    },
 
     /* Test against branded browsers. */
     // {

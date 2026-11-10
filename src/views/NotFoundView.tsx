@@ -1,12 +1,15 @@
 import { defineComponent } from 'vue'
 import { RouterLink } from 'vue-router'
 import { contentService } from '@/services'
+import { useDocumentHead } from '@/composables/useDocumentHead'
 import Icon from '@/components/icons/Icon'
 
 export default defineComponent({
   name: 'NotFoundView',
   setup() {
     const content = contentService.getNotFound()
+    const brand = contentService.getBrand()
+    useDocumentHead({ title: `${content.title} · ${brand.name}`, robots: 'noindex' })
 
     return () => (
       <main>

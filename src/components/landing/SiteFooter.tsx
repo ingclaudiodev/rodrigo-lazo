@@ -13,7 +13,7 @@ export default defineComponent({
         <p>{footer.copyright}</p>
         <nav class="flex gap-5" aria-label="Enlaces del pie">
           {links.map((link) => (
-            <AppLink key={link.href} href={link.href} class="link link-hover">
+            <AppLink key={link.href} href={link.href} class="link link-hover -my-3 py-3">
               {link.label}
             </AppLink>
           ))}
